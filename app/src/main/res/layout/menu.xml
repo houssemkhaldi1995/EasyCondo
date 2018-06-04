@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/fire"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/miscellaneous"
+                android:layout_marginHorizontal="25dp" />
+
+            <Button
+                android:id="@+id/leak"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/water"
+                android:layout_marginHorizontal="25dp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Fire"
+                android:textColor="@color/black"
+                android:textSize="23sp"
+                />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Leak"
+                android:textSize="23sp"
+                android:gravity="center"
+                android:textColor="@color/black"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            >
+
+            <Button
+                android:id="@+id/gardening"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/jardin"
+                android:layout_marginHorizontal="25dp"/>
+
+            <Button
+                android:id="@+id/cleanliness"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/cleanliness"
+                android:layout_marginHorizontal="25dp"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Gardening"
+                android:textColor="@color/black"
+                android:textSize="23sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Cleanliness"
+                android:textColor="@color/black"
+                android:textSize="23sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/lighting"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/lighting"
+                android:layout_marginHorizontal="25dp"/>
+            <Button
+                android:id="@+id/repair"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/repair"
+                android:layout_marginHorizontal="25dp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:text="Lighting"
+                android:textSize="23sp"
+                android:gravity="center"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:text="Repair"
+                android:textSize="23sp"
+                android:gravity="center"
+                android:textColor="@color/black"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/paint"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/paint"
+                android:layout_marginHorizontal="25dp"
+                />
+
+            <Button
+                android:id="@+id/noise"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/tongzhi"
+                android:layout_marginHorizontal="25dp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Paint"
+                android:textSize="23sp"
+                android:gravity="center"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Noise"
+                android:textSize="23sp"
+                android:gravity="center"
+                android:textColor="@color/black"/>
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/blackout"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/electricity"
+                android:layout_marginHorizontal="25dp"/>
+
+            <Button
+                android:id="@+id/trash"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/trash"
+                android:layout_marginHorizontal="25dp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Blackout"
+                android:textSize="23sp"
+                android:gravity="center"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Trash can"
+                android:textSize="23sp"
+                android:gravity="center"
+                android:textColor="@color/black"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/road"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginHorizontal="25dp"
+                android:background="@drawable/road" />
+
+            <Button
+                android:id="@+id/other"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginHorizontal="25dp"
+                android:background="@drawable/other" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginBottom="50dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Road"
+                android:textColor="@color/black"
+                android:textSize="23sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Other"
+                android:textColor="@color/black"
+                android:textSize="23sp" />
+        </TableRow>
+
+    </TableLayout>
+</ScrollView>

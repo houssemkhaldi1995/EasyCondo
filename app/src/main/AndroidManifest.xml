@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.houssem.leboncopro">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="EasyCondo"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".Controller.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Controller.HomeActivity" />
+        <activity android:name=".Controller.RegisterActivity" />
+        <activity android:name=".Controller.MenuActivity" />
+        <activity android:name=".Controller.IncidentActivity" />
+        <activity android:name=".Controller.ReportingActivity" />
+        <activity android:name=".Controller.NextActivity" />
+        <activity android:name=".Controller.EditActivity" />
+        <activity android:name=".Controller.CondoActivity" />
+        <activity android:name=".Controller.Register2Activity" />
+        <activity android:name=".Controller.RequestActivity" />
+        <activity android:name=".Controller.DetailsActivity" />
+        <activity android:name=".Controller.NotificationActivity" />
+        <activity android:name=".Controller.ContaintActivity" />
+        <activity android:name=".Controller.WaitingActivity" />
+        <activity android:name=".Controller.PaymentActivity" />
+        <activity android:name=".Controller.ExpenditureActivity" />
+        <activity android:name=".Controller.ContentActivity"></activity>
+    </application>
+
+</manifest>

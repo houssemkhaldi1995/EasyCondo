@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "66067623303",
+    "firebase_url": "https://leboncopro.firebaseio.com",
+    "project_id": "leboncopro",
+    "storage_bucket": "leboncopro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66067623303:android:a8d51a7e5c3bdc9a",
+        "android_client_info": {
+          "package_name": "com.example.houssem.leboncopro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66067623303-i74p83pa12a86igg6qk6ltsble7pe6ma.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.houssem.leboncopro",
+            "certificate_hash": "b56afa6aae1e0b7229885833d403d332158f1838"
+          }
+        },
+        {
+          "client_id": "66067623303-o49p2lmrldc4nh93uptr2i63ma311bgg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkqjNCIbI_93ZMOq3DXDg_3b_mI3SISSE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66067623303-o49p2lmrldc4nh93uptr2i63ma311bgg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
